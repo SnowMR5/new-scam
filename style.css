@@ -1,0 +1,110 @@
+	@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+   	@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+   	@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+   	*{
+   		margin:0;
+   		padding:0;
+   		box-sizing:border-box;
+   	}
+   
+   	.container{
+   		margin:-5px auto;
+   		width:100%;
+   		height:750px;	background:linear-gradient(180deg,#000,#000,#161A64,#A5DFEE,#000);
+   		padding:20px;
+   		display:block;
+   	}
+   	.Two{
+   		margin:0 auto;
+   		width:100%;
+   		height:500px;
+   		background:transparent;
+   		padding:10px;
+   		margin-top:10px;
+   	}
+   	
+   	#img_id{
+   		width: 250px;
+   		height: 250px;
+   		position: absolute;
+   		top: 80px;
+   		right: 0;
+   		bottom: 0;
+   		left: 0;
+   		margin: auto;
+   		background:url(mapa_mundo.png);
+   		border-radius: 50%;
+   		border:4px solid #159CD0;
+   		border-top:transparent;
+   		border-bottom:transparent;
+   		box-shadow:0 0 35px #2A9DD5;
+   		background-size: cover;
+   		overflow:hidden;
+   		animation: planet 10s infinite linear;
+   		}
+   		@keyframes planet{
+   			0% {
+   				background-position: 0 center;
+   				}
+   			100% {
+   				background-position: 400px center;
+   				}
+   		}
+   		.buttons{
+   			padding:7px;
+   			width:50%;
+   			color:#000;
+   			border-radius:5px;
+   			margin:-50px 0px 0px 80px;
+   			font-size:17px;
+   			font-family: 'Poppins', sans-serif;
+   			font-weight:bold;
+   			text-decoration:none;
+   			outline:none;
+   			margin-top:40px;
+   			border:0;
+   			box-shadow: inset 3px 3px 3px rgba(255,255,255,0.8), 
+   			inset -2px -2px 3px rgba(0,0,0,0.1), 2px 2px 10px rgba(0,0,0,0.7);
+   			background: #DDBA0E;
+   			text-shadow: -1px -1px rgba(0,0,0,.2);
+   		}
+   			.buttons:active{
+   				text-shadow: 1px 1px rgba(0,0,0,.3);
+   				background:#D90C0C;
+   				color:#fff;
+   				box-shadow:
+   				inset 4px 4px 4px rgba(0,0,0,.3),
+   				inset -3px -3px 3px rgba(255,255,255,.2);
+   		}
+   		.htc{
+   			font-size:30px;
+   			text-align:center;
+   			font-weight:bold;
+   			color:#51EC34;
+   			margin-top:-510px;
+   			font-family: 'Rubik', sans-serif;
+   		}
+   		.phc{
+   			color:#000;
+   			font-size:19px;
+   			text-align:center;
+   			font-weight:bold;
+   			font-family:arial;
+   			margin-top:450px;
+   			font-family: 'Oswald', sans-serif;
+   		}
+   		.phx{
+   			color:#000;
+   			font-size:14px;
+   			text-align:center;
+   			font-weight:bold;
+   			font-family:arial;
+   			margin-top:30px;
+   			font-family: 'Oswald', sans-serif;
+   		}
+   		#lienzo{
+   			border:1px solid black;
+   		}
+   		#iconx{
+   			color:#1D0E83;
+   		}
